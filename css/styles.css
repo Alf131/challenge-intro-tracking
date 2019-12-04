@@ -1,3 +1,54 @@
+.colors {
+color: hsl(230, 29%, 20%);
+color:  hsl(230, 11%, 40%);
+color: hsl(231, 7%, 65%);
+color: hsl(207, 33%, 95%);
+}
+* {
+    box-sizing: border-box;
+  }
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    background-color: hsl(207, 33%, 95%);;
+}
+
+/* Navigation  */
+
+.navbar {
+    padding: 2% 5%;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+}
+
+ul > li > a:hover {
+    text-decoration: underline !important;
+}
+.spot {
+    height: 5px;
+    width: 5px;
+    background-color: hsl(230, 11%, 40%);
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 21px;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: 
+}
+
+
+
+/* Atribution */
+
 .attribution { 
     font-size: 11px; text-align: center;
 }
