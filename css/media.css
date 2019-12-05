@@ -8,4 +8,17 @@
     .computer {
         margin-bottom: 15%;
     }
+    .navbar-collapse {
+        top:150px !important;
+        position:relative;
+        text-align: center;
+        background-color: white;
+    }
+    .nav-link {
+        text-transform: uppercase;
+    }
+    .spot {
+        height: 2px;
+        width: 90%;
+        border-radius: 0;
 }
