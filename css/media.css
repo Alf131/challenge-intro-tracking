@@ -8,11 +8,15 @@
     .computer {
         margin-bottom: 15%;
     }
+    .navbar {
+        padding-right: 0%;
+    }
     .navbar-collapse {
-        top:150px !important;
-        position:relative;
+        top: 80px !important;
+        position:absolute;
         text-align: center;
         background-color: white;
+        width: 90%;
     }
     .nav-link {
         text-transform: uppercase;
