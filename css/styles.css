@@ -7,7 +7,7 @@ body {
     background-color: white;
     margin: auto;
     padding: 0% 0% 5% 0%;
-
+    color: hsl(230, 29%, 20%)
 }
 h1, h2, h3 {
     font-family: "Barlow Condensed", sans-serif;
@@ -43,6 +43,7 @@ a:hover {
     padding-left: 10%;
     margin-right: 10%;
     margin-bottom: 5%;
+    padding-top: 3%;
 }
 .nav-item {
     padding: 0 18px;
@@ -50,8 +51,11 @@ a:hover {
 .nav-link {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
 }
-
+#link {
+    color: hsl(230, 29%, 20%) ;
+} 
 ul > li > a:hover {
     text-decoration: underline !important;
 }
@@ -77,7 +81,7 @@ ul > li > a:hover {
 }
 .NewWrapper {
     color: white;
-    background-color: black;
+    background-color: hsl(230, 29%, 20%);
     border-radius: 30px;
     padding: 0 10px;
     letter-spacing: normal;
@@ -92,6 +96,9 @@ ul > li > a:hover {
 }
 .main p {
     margin-bottom: 7%;;
+}
+.text-wrapper {
+    margin-top: 15%;
 }
 
 /* Footer */
