@@ -67,7 +67,9 @@ ul > li > a:hover {
     display: inline-block;
     margin-top: 21px;
 }
-
+#login:hover {
+    color:hsl(230, 11%, 40%) !important;
+}
 /* Main */
 .computer {
     width: 100%;
