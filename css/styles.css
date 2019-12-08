@@ -62,7 +62,7 @@ ul > li > a:hover {
 .spot {
     height: 5px;
     width: 5px;
-    background-color: hsl(230, 11%, 40%);
+    background-color: rgba(0,0,0,.5);
     border-radius: 50%;
     display: inline-block;
     margin-top: 21px;
@@ -70,6 +70,40 @@ ul > li > a:hover {
 #login:hover {
     color:hsl(230, 11%, 40%) !important;
 }
+/* Hamburger menu with animation */
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color:hsl(230, 29%, 20%);
+	display: block;
+	transition: all 0.2s;
+    margin-top: 4px
+}
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+   
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+   
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+   
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+   
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+   
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
 /* Main */
 .computer {
     width: 100%;

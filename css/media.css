@@ -1,4 +1,8 @@
 @media (max-width:930px) {
+    .background {
+        width: 185px;
+        height: 375px;
+    }
     .main {
         flex-direction: column;
     }
@@ -24,8 +28,19 @@
     .navbar-toggler {
         border: none;
     }
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        outline: 0;
+    }
     .spot {
         height: 1px;
         width: 90%;
         border-radius: 0;
+    }
+    .text-wrapper h2:last-of-type {
+        font-size: 0.8rem;
+    }
+    .text-wrapper h1 {
+        font-size: 2.5rem;
+    }
 }
